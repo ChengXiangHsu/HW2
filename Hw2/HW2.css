@@ -1,0 +1,320 @@
+body{
+    background: #fCf9f4;
+    margin : 0;
+    cursor: url(./Ellipse17.png),auto;
+}
+.bc{
+    line-height: 0;
+    height: 30vw;
+}
+.bc1{
+    position: fixed;
+    background-image: url(Rectangle148.png);
+    bottom: 0;
+    height: 15.5vw;
+    width: 100vw;
+}
+.bc2{
+    position: fixed;
+    background-image: url(Rectangle155.png);
+    bottom: 0;
+    height: 13.5vw;
+    width: 100vw;
+}
+#1st,#2nd,#3rd{
+    position:fixed;
+    width:100%;
+}
+#1st{
+    line-height: 0;
+    height: 5em;
+    top : 20em;
+    padding: 5px 0;
+}
+i.search,i.change{
+    background-repeat: no-repeat;
+    display: inline-block;
+    height:30px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+i.search{
+    background-image: url(./search.svg);
+    position: fixed; 
+    right: 17%;
+    top: 2.8%;
+    width: 5%;
+    height: 5%;
+}
+i.change{
+    background-image: url(./Group144.png);
+    position:fixed;
+    width: 7%;
+    height: 4%;
+    right: 6%;
+    top: 3.3%;
+}
+#2nd{
+    line-height: 0;
+    padding: 5px 0;
+    height: 5em;
+    top: 20em;
+}
+#attraction#taiwan#hotel#information#tourist#contact{
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height:30px;
+    background-size: contain;
+    
+}
+#taiwan{
+    background-image: url(./Group139.png);
+    position:fixed;
+    width: 11%;
+    height: 10%;
+    left: 5%;
+    top: 6.5%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#contact{
+    background-image: url(./Group165.png);
+    position:fixed;
+    width: 5%;
+    height: 5.5%;
+    right: 5%;
+    top: 10%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#information{
+    background-image: url(./Group164.png);
+    position:fixed;
+    width: 6%;
+    height: 5.5%;
+    right: 14%;
+    top: 10%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#tourist{
+    background-image: url(./Group163.png);
+    position:fixed;
+    width: 6%;
+    height: 5.5%;
+    right: 24%;
+    top: 10%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#hotel{
+    background-image: url(./Group162.png);
+    position:fixed;
+    width: 6%;
+    height: 5.5%;
+    right: 34%;
+    top: 10%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#attraction{
+    background-image: url(./Group161.png);
+    position:fixed;
+    width: 5%;
+    height: 5.5%;
+    right: 44%;
+    top: 10%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.line{
+    background-image: url(./Line49.png);
+    position: fixed;
+    width: 5px;
+    height: 30px;
+    background-repeat: no-repeat;
+    top: 11%;
+}
+.four{
+    right: 12%;
+}
+.three{
+    right: 21.5%;
+}
+.two{
+    right: 31.8%;
+}
+.one{
+    right: 41.5%;
+}
+#3rd{
+    line-height: 0;
+    padding: 5px 0;
+    top: 20em;
+    display: flex;
+}
+#back#welcome{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#back{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:fixed;
+    width: 92.3%;     /*95%*/
+    height: 73%;    /*73%*/
+    left: 4%;
+    top: 21%;
+    border-radius: 38px;
+    animation: clipRectIn 1s;
+    overflow: hidden;
+}
+#pic1{
+    background: url(./img2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+#pic2{
+    background: url(./img23.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left:100%;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+@keyframes clipRectIn{
+    0% {
+        clip-path: inset(50% round 10% 50%);
+    }
+    100% {
+        clip-path: inset(0% round 0);
+    }    
+}
+
+#welcome{
+    background: url(./Group142.png);
+    position:absolute;
+    width: 20%;
+    height: 50%;
+    left: 39%;
+    top: 30%; /*15%*/
+    opacity: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#part1{
+    background: url(./scroll-01.png);
+    position:absolute;
+    width: 7%;
+    height: 15%;
+    left: 0.6%;
+    bottom: 32%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#part2{
+    /*background-image: url(./Line\ 59.png);*/
+    background-color: #df7400;
+    position:absolute;
+    width: 0.25%;
+    height: 18%;
+    left: 3.9%;
+    bottom: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#or_line{
+    /*background-image: url(./Line\ 59.png);*/
+    background-color: #fff;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: height 0.5s;
+    /*
+    animation-name: shorter;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    */
+}
+.white{
+    position:absolute;
+    width: 39%;
+    height: 7%;
+    left: 30%;
+    bottom: 7%;
+    background-color: #fCf9f4;
+    overflow: hidden; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 35px;
+}
+.cover{
+    position:absolute;
+    width: 10%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:#fCf9f4;
+}
+.orange{
+    background: url(./Group160.png);
+    position:absolute;
+    width: 15%;
+    height: 100%;
+    left: 2%;
+    top: 0%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+div#marqee{
+    height: 60%;
+    left: 0;
+    top: 25%;
+    font-size: 130%;
+    width: 160%;
+    margin: 0 auto;
+    overflow: hidden; 
+    position: absolute;
+    animation: marqee 8s linear infinite;
+    font-weight: bold;
+    font-family: Arial, Helvetica, '微軟正黑體';
+    color: #4b2929;
+} 
+@keyframes marqee {
+    0% {
+     transform: translateX(120%);
+    }
+    100% {
+    transform: translateX(-87%);
+    }
+}
+

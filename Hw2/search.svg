@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72.5" height="20" viewBox="0 0 72.5 20">
+  <g id="Group_149" data-name="Group 149" transform="translate(-1573 -33)">
+    <g id="Group_145" data-name="Group 145" transform="translate(123 -10)">
+      <text id="Search" transform="translate(1450 59)" fill="#4b2929" font-size="15" font-family="NotoSans-SemiBold, Noto Sans" font-weight="600" letter-spacing="0.05em"><tspan x="0" y="0">Search</tspan></text>
+      <path id="Icon_map-search" data-name="Icon map-search" d="M11.318,9.522a5.339,5.339,0,1,0-1.8,1.8l3.622,3.622,1.8-1.8Zm-4.552.54a3.294,3.294,0,1,1,3.3-3.292,3.3,3.3,0,0,1-3.3,3.292Z" transform="translate(1507.56 45.56)" fill="#4b2929"/>
+    </g>
+  </g>
+</svg>
